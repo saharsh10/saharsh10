@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "TestCopyPipeline",
+				"name": "CopyActivity",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
@@ -21,6 +21,9 @@
 							"type": "AzureBlobStorageReadSettings",
 							"recursive": true,
 							"wildcardFolderPath": "*"
+						},
+						"formatSettings": {
+							"type": "BinaryReadSettings"
 						}
 					},
 					"sink": {
