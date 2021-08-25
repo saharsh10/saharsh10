@@ -1,0 +1,9 @@
+{
+	"name": "spateldataestateadcfactory",
+	"location": "East Us",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "01e2f776-05ee-488a-8d38-1a8b6a7bc557",
+		"tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47"
+	}
+}
